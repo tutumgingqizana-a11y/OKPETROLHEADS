@@ -1,0 +1,59 @@
+
+<header class="site-header">
+  <h1>OKUHLE <span>PETROLHEADS</span></h1>
+  <p>Discover the world of South African cars</p>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">SOUTH AFRICAN MOTORING</p>
+    <h2>Explore the Cars That Move SA</h2>
+    <p>Compare popular brands, discover vehicle categories and explore car specifications.</p>
+    <a href="#catalogue" class="hero-button">Explore Cars</a>
+  </div>
+</section>
+
+<section id="catalogue" class="catalogue">
+  <h2>South African Car Collection</h2>
+
+  <div class="filters">
+    <input id="searchInput" type="text" placeholder="Search for a car...">
+
+    <select id="brandFilter">
+      <option value="all">All Brands</option>
+      <option value="Toyota">Toyota</option>
+      <option value="Volkswagen">Volkswagen</option>
+      <option value="Isuzu">Isuzu</option>
+      <option value="Audi">Audi</option>
+      <option value="BMW">BMW</option>
+      <option value="Nissan">Nissan</option>
+      <option value="Renault">Renault</option>
+      <option value="Suzuki">Suzuki</option>
+      <option value="Mercedes-Benz">Mercedes-Benz</option>
+    </select>
+
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="SUV">SUV</option>
+      <option value="Sedan">Sedan</option>
+      <option value="Hatchback">Hatchback</option>
+      <option value="Bakkie">Bakkie</option>
+      <option value="Coupe">Coupe</option>
+    </select>
+  </div>
+
+  <p id="resultCount" class="result-count"></p>
+  <div id="carGrid" class="car-grid"></div>
+</section>
+
+<div id="carModal" class="modal">
+  <div class="modal-content">
+    <button id="closeModal" class="close-button" aria-label="Close">&times;</button>
+    <div id="modalDetails"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <h2>OKUHLE PETROLHEADS</h2>
+  <p>Celebrating cars and motoring in South Africa.</p>
+</footer>
